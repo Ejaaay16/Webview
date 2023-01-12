@@ -1,0 +1,389 @@
+html{
+    background-image:url("fighter2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+    overflow-x: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   
+         
+
+    
+}
+
+
+
+header {
+    position: static;
+    background: #424242;
+    padding:20px;
+    width: 100%;
+    height: 40px;
+    
+    
+
+}
+
+.clock{
+    background-color:#1e90ff;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: -1px;
+    float: right;
+    margin-top: -120px;
+    margin-right:670px;
+    
+
+}
+
+.clock-time {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color: black;
+
+}
+
+.clock-ampm {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+.left_area {
+    color:black;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left_area h3 {
+    font-family: 'Arvo', serif;
+    font-size:60px;
+    font-weight: bold;
+    color: #48fb47;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; 
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.About_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top: 40px;
+    margin-right:580px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+
+}
+
+.About_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Gmail_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:40px;
+    margin-right: -165px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Gmail_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Menu_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:40px;
+    margin-right: -260px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Menu_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Notes_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:40px;
+    margin-right: -350px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Notes_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Register_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:40px;
+    margin-right: -510px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Register_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Logout_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:40px;
+    margin-right: -610px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Logout_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.box {
+    position: relative;
+    width: 1190px;
+    height: 420px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+.box .main {
+    margin-top: -50px;
+    margin-left: 350px;
+
+}
+
+
+form {
+    width: 425px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 35px;
+    box-shadow: 0px 5px 8px 3px black;
+   background: #424242;
+    z-index: 10;
+    position: absolute;
+
+}
+
+.first_title {
+    
+    font-size:32px;
+    padding: 10px 10px 0px 10px;
+    margin-top: -6px;
+    color:#450202;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+#sub_title {
+    color: black;
+    margin-top: -15px;
+    margin-left: 10px;
+
+}
+
+hr {
+    margin-top: 10px;
+    opacity: 20%;
+
+}
+
+#tname {
+    width: 390px;
+    border-radius: 5px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+#sname {
+    width: 180px;
+    border-radius: 5px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+#emadd {
+    width: 390px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+#id {
+    width: 405px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+
+#major {
+    width: 405px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+#section {
+    width: 405px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+#sub {
+    width: 405px;
+    background: #e6e6ee;
+    height: 35px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+
+
+.submit {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 16px;
+    color:#ffffff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 165px;
+}

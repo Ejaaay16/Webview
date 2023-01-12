@@ -1,0 +1,90 @@
+html{
+    background-image:url("fighter5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.col-form {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.col-form .form-container {
+    background-color: #8B928F;
+    border-style: ridge;
+    border-color: #191C1A;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    margin-left: 370px;
+    padding: 20px;
+    width: 600px;
+    height: 295px;
+    
+}
+
+.col-form .form-container h3 {
+    font-family:'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 30px;
+    margin-right:230px;
+    margin-top: 1px;
+    
+}
+
+.col-form .form-container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0 30px;
+    margin-right:1px;
+
+}
+
+
+.col-form .form-container input, .col-form .form-container 
+.btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 50px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.col-form .form-container input {
+    border: 1px solid #191C1A;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+    width: 500px;
+
+}
+
+.col-form .form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+
+}
+
+
+
+.col-form .form-container .btn-Subm {
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 16px;
+    color:#ffffff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 200px;
+    
+    
+}

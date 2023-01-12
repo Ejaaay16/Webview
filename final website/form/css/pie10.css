@@ -1,0 +1,369 @@
+
+html{
+    background-image:url("pie10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    
+}
+ 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap'); 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+    overflow-x: hidden;
+    height: 500px;
+    position: absolute;
+    box-sizing: border-box;
+    
+  
+}
+
+header {
+    position: static;
+    background: #424242;
+    padding:20px;
+    width:100%;
+    height: 40px;
+    margin-bottom: 570px;
+    
+
+}
+.clock{
+    background-color:#1e90ff;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: -1px;
+    float: right;
+    margin-top: -115px;
+    margin-right:780px;
+
+}
+
+.clock-time {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color: black;
+
+}
+
+.clock-ampm {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+.left_area {
+    color:black;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left_area h3 {
+    font-family: 'Arvo', serif;
+    font-size:55px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 35px;
+    color:#1e90ff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.About_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 660px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+
+}
+
+.About_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Glossary_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 540px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Glossary_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Menu_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 450px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+
+}
+
+.Menu_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+
+.Notes_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 360px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Notes_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Records_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 240px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Records_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Subject_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 130px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Subject_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Logout_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Logout_btn:hover {
+
+    color:#1e90ff;
+}
+
+.table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+    margin-top: -550px;
+}
+
+#myFile {
+    margin-top: 20px;
+    margin-left: 180px;
+    padding: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+
+#review {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #1e90ff;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+/* From https://css.glass */
+background: rgba(144, 138, 138, 0.38);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.4px);
+-webkit-backdrop-filter: blur(12.4px);
+border: 1px solid rgba(144, 138, 138, 0.22);
+
+  /*  background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5); */
+}
+
+.table thead {
+
+   background: rgba(255,255,255,.2); 
+    
+}
+
+.table thead tr th {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.35px;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 0.5px solid #424242;
+    font-family: 'Arvo', serif;
+    color: #212121;
+ 
+   
+}
+
+
+
+.table tbody tr td {
+    font-size: 20px;
+    letter-spacing: 0.35px;
+    font-weight: Normal;
+    background: rgba(255,255,255,.2);
+    padding: 12px;
+    text-align: center;  
+    border: 0.5px solid #424242;
+    font-family: 'Arvo', serif;
+    color: black
+    
+}
+
+/*
+.table-container button {
+    float: right;
+    border: none;
+    padding: 15px 12px;
+    margin: 10px 0;
+    background: #27afd8;
+    color: white;
+    cursor: pointer;
+    } */
+
+
+
+
+    #myFile{
+
+      font-size: 16px;
+      background:white;
+      border-radius: 50px;
+      box-shadow: 5px 10px black;
+      width: 350px;
+      outline: none;
+      margin-left: 10px;
+      font-family: 'Arvo', serif;
+      }
+
+    ::-webkit-file-upload-button {
+        color: white;
+        background: #1e90ff;
+        padding: 5px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 1px 0 1px 1px #6b4559;
+        outline: none;
+        font-family: 'Arvo', serif;
+        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: black;
+
+    }
+      
+      
+
+      #mfUpload {
+        margin-right: 40px;
+        padding: 5px;
+        font-size: 16px;
+        font-family: 'Arvo', serif;
+        background-color: #1e90ff;
+        border-color: #1e90ff; 
+        
+      }
+
+      .table #mfUpload {
+       margin-right: 30px;
+      }
+
+      .table #myFile {
+        margin-right: 350px;
+       }

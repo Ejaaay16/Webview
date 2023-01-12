@@ -1,0 +1,1540 @@
+html{
+    background-image:url("profed1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap'); 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+    overflow-x: hidden;
+    height: 500px;
+    position: absolute;
+    
+  
+}
+
+header {
+    position: static;
+    background: #424242;
+    padding:20px;
+    width:100%;
+    height: 40px;
+    margin-bottom: 570px;
+    
+
+}
+
+.clock{
+    background-color:#1e90ff;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: -1px;
+    float: right;
+    margin-top: -115px;
+    margin-right:710px;
+
+}
+
+.clock-time {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    color: black;
+
+}
+
+.clock-ampm {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+.left_area {
+    color:black;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.left_area h3 {
+    font-family: 'Arvo', serif;
+    font-size:55px;
+    font-weight: bold;
+    color:#450202;
+    margin-top: -10px;
+    margin-left: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; 
+}
+
+.About_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 535px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+
+}
+
+.About_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Menu_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 320px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+
+}
+
+.Menu_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Glossary_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 415px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Glossary_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+.Notes_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 230px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Notes_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Records_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 125px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+}
+
+.Records_btn:hover {
+
+    color:#1e90ff;
+}
+
+.Logout_btn {
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top:-90px;
+    margin-right: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    cursor: pointer;
+
+
+}
+
+.Logout_btn:hover {
+
+    color:#1e90ff;
+}
+
+
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.box {
+    position: relative;
+    width: 1190px;
+    height: 1400px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-left: 30px;
+    margin-top: -500px;
+  }
+
+
+.box .ui-card{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 1000px;
+    margin-top: -20px;
+}
+
+
+.box .ui-card1{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 430px;
+    margin-bottom: 700px;
+    margin-top: -1200px;
+}
+
+.box .ui-card2{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 850px;
+    margin-bottom: 500px;
+    margin-top: -900px;
+}
+
+.box .ui-card3{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 800px;
+    margin-top: -400px;
+}
+
+.box .ui-card4{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 430px;
+    margin-bottom: 300px;
+    margin-top: -1000px;
+
+}
+
+.box .ui-card5{
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 850px;
+    margin-bottom: 800px;
+    margin-top: -500px;
+
+}
+
+.box .ui-card6{
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 500px;
+    margin-top: -720px;
+}
+
+.box .ui-card7{
+width:350px;
+background:radial-gradient(#111 50%, #000 100%);
+overflow: hidden;
+position: relative;
+margin-left: 430px;
+margin-bottom: 600px;
+margin-top: -700px;
+}
+
+.box .ui-card8 {
+width:350px;
+background:radial-gradient(#111 50%, #000 100%);
+overflow: hidden;
+position: relative;
+margin-left: 850px;
+margin-bottom: 800px;
+margin-top: -800px;
+
+}
+
+.box .ui-card9 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.box .ui-card10 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 430px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.box .ui-card11 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 850px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+
+.box .ui-card12 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 500px;
+    margin-top: -400px;
+}
+
+.box .ui-card13 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 430px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+
+.box .ui-card14 {
+
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 850px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 500px;
+    margin-top: -500px;
+}
+
+.ui-card img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 20px;
+}
+
+.description a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 20px;
+}
+
+.description a:hover{
+    background: #2e3588;
+}
+
+.ui-card:hover .description h3 {
+    opacity: 1;
+}
+
+.ui-card:hover .description p {
+    opacity: 1;
+}
+
+.ui-card:hover .description a {
+    opacity: 1;
+}
+
+
+.ui-card1 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 535px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card1 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card1:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description1 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description1 h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right:10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description1 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description1 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description1 a:hover{
+    background: #2e3588;
+}
+
+.ui-card1:hover .description1 h3 {
+    opacity: 1;
+}
+
+.ui-card1:hover .description1 p {
+    opacity: 1;
+}
+
+.ui-card1:hover .description1 a {
+    opacity: 1;
+}
+
+
+.ui-card2 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 950px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card2 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card2:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description2 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description2 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.description2 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description2 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description2 a:hover{
+    background: #2e3588;
+}
+
+.ui-card2:hover .description2 h3 {
+    opacity: 1;
+}
+
+.ui-card2:hover .description2 p {
+    opacity: 1;
+}
+
+.ui-card2:hover .description2 a {
+    opacity: 1;
+}
+
+
+.ui-card3 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 950px;
+    margin-bottom: 500px;
+    margin-top: -150px;
+}
+
+.ui-card3 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card3:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description3 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description3 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description3 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 20px;
+}
+
+.description3 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 25px;
+}
+
+.description3 a:hover{
+    background: #2e3588;
+}
+
+.ui-card3:hover .description3 h3 {
+    opacity: 1;
+}
+
+.ui-card3:hover .description3 p {
+    opacity: 1;
+}
+
+.ui-card3:hover .description3 a {
+    opacity: 1;
+}
+
+
+.ui-card4 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 300px;
+    margin-bottom: 500px;
+    margin-top: -980px;
+}
+
+.ui-card4 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card4:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description4 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description4 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+    margin-bottom: -10px;
+    
+}
+
+.description4 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 20px;
+}
+
+.description4 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 20px;
+}
+
+.description4 a:hover{
+    background: #2e3588;
+}
+
+.ui-card4:hover .description4 h3 {
+    opacity: 1;
+}
+
+.ui-card4:hover .description4 p {
+    opacity: 1;
+}
+
+.ui-card4:hover .description4 a {
+    opacity: 1;
+}
+
+
+
+.ui-card5 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 750px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card5 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card5:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description5 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description5 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 25px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description5 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description5 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description5 a:hover{
+    background: #2e3588;
+}
+
+.ui-card5:hover .description5 h3 {
+    opacity: 1;
+}
+
+.ui-card5:hover .description5 p {
+    opacity: 1;
+}
+
+.ui-card5:hover .description5 a {
+    opacity: 1;
+}
+
+
+.ui-card6 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 500px;
+    margin-top: -420px;
+}
+
+.ui-card6 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card6:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description6 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description6 h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description6 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 20px;
+}
+
+.description6 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 20px;
+}
+
+.description6 a:hover{
+    background: #2e3588;
+}
+
+.ui-card6:hover .description6 h3 {
+    opacity: 1;
+}
+
+.ui-card6:hover .description6 p {
+    opacity: 1;
+}
+
+.ui-card6:hover .description6 a {
+    opacity: 1;
+}
+
+
+
+.ui-card7 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card7 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card7:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description7 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description7 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 25px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description7 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description7 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description7 a:hover{
+    background: #2e3588;
+}
+
+.ui-card7:hover .description7 h3 {
+    opacity: 1;
+}
+
+.ui-card7:hover .description7 p {
+    opacity: 1;
+}
+
+.ui-card7:hover .description7 a {
+    opacity: 1;
+}
+
+
+.ui-card8 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card8 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card8:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description8 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description8 h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 25px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description8 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 25px;
+}
+
+.description8 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 20px;
+}
+
+.description8 a:hover{
+    background: #2e3588;
+}
+
+.ui-card8:hover .description8 h3 {
+    opacity: 1;
+}
+
+.ui-card8:hover .description8 p {
+    opacity: 1;
+}
+
+.ui-card8:hover .description8 a {
+    opacity: 1;
+}
+
+
+
+
+
+.ui-card9 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card9 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card9:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description9 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description9 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description9 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 25px;
+}
+
+.description9 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 25px;
+}
+
+.description9 a:hover{
+    background: #2e3588;
+}
+
+.ui-card9:hover .description9 h3 {
+    opacity: 1;
+}
+
+.ui-card9:hover .description9 p {
+    opacity: 1;
+}
+
+.ui-card9:hover .description9 a {
+    opacity: 1;
+}
+
+
+
+.ui-card10 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card10 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card10:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description10 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description10 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description10 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 25px;
+}
+
+.description10 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 25px;
+}
+
+.description10 a:hover{
+    background: #2e3588;
+}
+
+.ui-card10:hover .description10 h3 {
+    opacity: 1;
+}
+
+.ui-card10:hover .description10 p {
+    opacity: 1;
+}
+
+.ui-card10:hover .description10 a {
+    opacity: 1;
+}
+
+
+
+.ui-card11 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card11 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card11:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description11 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description11 h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description11 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description11 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description11 a:hover{
+    background: #2e3588;
+}
+
+.ui-card11:hover .description11 h3 {
+    opacity: 1;
+}
+
+.ui-card11:hover .description11 p {
+    opacity: 1;
+}
+
+.ui-card11:hover .description11 a {
+    opacity: 1;
+}
+
+
+
+.ui-card12 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card12 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card12:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description12 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description12 h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description12 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 25px;
+}
+
+.description12 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 25px;
+}
+
+.description12 a:hover{
+    background: #2e3588;
+}
+
+.ui-card12:hover .description12 h3 {
+    opacity: 1;
+}
+
+.ui-card12:hover .description12 p {
+    opacity: 1;
+}
+
+.ui-card12:hover .description12 a {
+    opacity: 1;
+}
+
+
+
+.ui-card13 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card13 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card13:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description13 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description13 h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    margin-right: 25px;
+}
+
+.description13 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+    margin-right: 25px;
+}
+
+.description13 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+    margin-right: 25px;
+}
+
+.description13 a:hover{
+    background: #2e3588;
+}
+
+.ui-card13:hover .description13 h3 {
+    opacity: 1;
+}
+
+.ui-card13:hover .description13 p {
+    opacity: 1;
+}
+
+.ui-card13:hover .description13 a {
+    opacity: 1;
+}
+
+
+
+.ui-card14 {
+    width:350px;
+    background:radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    margin-left: 530px;
+    margin-bottom: 500px;
+    margin-top: -700px;
+}
+
+.ui-card14 img{
+    transform: scale (1.3);
+    transition: all 0.3s ease-out;
+}
+
+.ui-card14:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+
+
+}
+
+.description14 {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.description14 h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 0 20px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.description14 p{
+    opacity: 0;
+    transition: 0.3s ease-out 0.2s;
+}
+
+.description14 a{
+    color:#fff; 
+    background: #1e90ff;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.3s ease-out 0.4s;
+}
+
+.description14 a:hover{
+    background: #2e3588;
+}
+
+.ui-card14:hover .description14 h3 {
+    opacity: 1;
+}
+
+.ui-card14:hover .description14 p {
+    opacity: 1;
+}
+
+.ui-card14:hover .description14 a {
+    opacity: 1;
+}
